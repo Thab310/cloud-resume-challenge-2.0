@@ -9,7 +9,7 @@ Special shout out to [Forrest Brazeal](https://x.com/forrestbrazeal) the creater
 * I used terraform for IAC instead of of AWS (serverless application model) SAM because it cloud agnostic.
 * I used AWS Lambda function url instead of API Gateway in order to reduce complexity and optimise the application by getting rid of the addition network hop. :) less is more
 * added terraform tests using terratest
-* I decided to split the app into 2 different repos ( Backend, Frontend) each has it's own CI/CD pipeline
+* I decided to split the app into 2 different repos ( [Backend](https://github.com/Thab310/crc-2.0-backend), [Frontend](https://github.com/Thab310/crc-2.0-frontend)) each has it's own CI/CD pipeline
 * S3 bucket is no longer public
 * I decided to go for golang for my lambda instead of python because it is more performant
 
