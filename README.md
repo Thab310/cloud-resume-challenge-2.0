@@ -20,9 +20,19 @@ Special shout out to [Forrest Brazeal](https://x.com/forrestbrazeal) the creater
     * AWS cli
     * Go
     * git
+    * zip
 
+## Steps
+1. Stote AWS secrets and variables in the respective github repos
 ## Diagrams
 
 ### Architecture
 ### CI/CD Flows
+
+We need to understand the flow, very well. We basically have 2 repositories (( [Backend](https://github.com/Thab310/crc-2.0-backend)) & [Frontend](https://github.com/Thab310/crc-2.0-frontend)).
+
+>[!NOTE]
+The front-end website needs an infrastructure to run on (backend), hence Frontend is dependant on backend.
+
+When we update our backend code the [CI/CD pipeline](https://github.com/Thab310/crc-2.0-frontend)) for that code should trigger the [Frontend CI/CD](https://github.com/Thab310/crc-2.0-frontend/)), THE 
 
