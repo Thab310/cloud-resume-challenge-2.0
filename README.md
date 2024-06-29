@@ -14,7 +14,7 @@ Special shout out to [Forrest Brazeal](https://x.com/forrestbrazeal) the creater
 * I decided to go for golang for my lambda instead of python because it is more performant
 
 >[!NOTE]
-This a `GitOps` implementaion. Many people think that GitOps means "ArgoCD" or flux but in actual fact. `GitOps is an operational framework based on DevOps practices`, like continous integration/continous delivery (CI/CD) and version control, which automates infrastructure and manages software deployment. Git must be the only source of truth for both infrustructure and application.
+This a `GitOps` implementation. Many people think that GitOps means `ArgoCD` or `Flux` but in actual fact. `GitOps is an operational framework based on DevOps practices`, like continous integration/continous delivery (CI/CD) and version control, which automates infrastructure and manages software deployment. Git must be the only source of truth for both infrustructure and application.
 
 ## Favourites
 What I love most about having a multi-repo set-up is the simplicity it provides in a sense that each repo is smaller and manageble. Not to forget the fact that it's also independly deployable with it's own CICD pipeline. The reason I am going with this approach is because i want to leave a door for improvements both on the infrastructure level and backend api level, but that can very quickly become complex if everything is bundled in one repository.
@@ -55,6 +55,6 @@ When we update our terraform code, the [Terraform CI/CD](https://github.com/Thab
 
 If the domain name is available you will be forwarded to this page below to confirm your purchase of the domain. 
 
->[NOTE]
+>[!NOTE]
 A `.com` domain on AWS costs `$14`
 ![route53_2](images/Screenshot%20(281).png)
