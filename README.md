@@ -24,7 +24,7 @@ Because we are running the application from 3 repositories, and everytime we upd
 
 The problem with this is that users that call this API, during this period will not get count as viewers. 
 
->[NOTE]
+>[!NOTE]
 I am open to suggestions!
 
 ## Prequesites
